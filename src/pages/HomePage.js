@@ -2,7 +2,6 @@ import React from "react";
 import ServicesSlider from "../components/ServicesSlider";
 import GallerySlider from '../components/GallerySlider';
 import OurProjects from "../components/OurProjects";
-import { motion } from "framer-motion";
 import ServicesGrid from "../components/ServicesGrid";
 const HomePage = () => (
   <>
