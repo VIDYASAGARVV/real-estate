@@ -16,9 +16,10 @@ const HeroSection = () => {
 
   return (
     <div
-      className="relative bg-cover bg-center min-h-screen"
+      className="relative bg-cover bg-center min-h-screen objects-cover"
       style={{
-        backgroundImage: `url('https://images.pexels.com/photos/10647324/pexels-photo-10647324.jpeg')`,
+        backgroundImage: `url('https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg')`,
+        
       }}
     >
       {/* Overlay */}
