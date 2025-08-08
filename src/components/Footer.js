@@ -16,7 +16,7 @@ const Footer = () => {
       <div className="grid sm:grid-cols-2  max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Logo + Description */}
         <div className="text-center">
-          <img src="https://goldenhomesconstructions.com/wp-content/uploads/2024/10/newone.png" alt="Logo" className="h-12 mb-4" />
+          <img src="https://res.cloudinary.com/sghome/image/upload/v1754635700/firstyle_uqm3no.jpg" alt="Logo" className="h-12 lg:w-40 mb-4" />
           <p className="text-gray-300">
             We, at Golden Homes Constructions, specialise in turning dreams into
             reality. We offer a wide range of construction services tailored to
@@ -103,7 +103,7 @@ const Footer = () => {
               href="https://twitter.com"
               target="_blank"
               rel="noreferrer"
-              className="flex items-center space-x-3 hover:text-yellow-400 transition"
+              className="flex items-center space-x-3 hover:text-yellow-400 transition mr-6"
             >
               <div className="bg-yellow-600 hover:bg-yellow-500 text-black p-3 rounded-full">
                 <FaTwitter />
@@ -124,22 +124,24 @@ const Footer = () => {
           <div className="space-y-3 text-gray-300">
             <p>
               <FaMapMarkerAlt className="inline mr-2 text-yellow-400" />
-              No. D4, 391, 407, SFS,
-              <br />
-              4th phase, Yelahanka New Town,
-              <br />
-              Bengaluru North, Bengaluru,
-              <br />
-              Karnataka 560064
+             Address: 1-floor  No.899/3, <br/>
+             M.E.S Road, muthyala nagar,<br/>
+              Bangalore 560054.
             </p>
             <p>
+              <FaMapMarkerAlt className="inline mr-2 text-yellow-400" />
+             Address: No:- 9-126/d <br/>
+              Satyanarayanapuram Jeevakona <br/>
+               Tirupati 517501.
+            </p>
+            {/* <p>
               <FaPhone className="inline mr-2 text-yellow-400" />
               6362-901-902
-            </p>
-            <p>
+            </p> */}
+            {/* <p>
               <FaEnvelope className="inline mr-2 text-yellow-400" />
               info@goldenhomesconstructions.com
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

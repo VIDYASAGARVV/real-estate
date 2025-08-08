@@ -4,12 +4,11 @@ const Home = () => {
   return (
     <>
     <section>
-        <div className="w-full flex flex justify-center pt-10 pb-10 ">
+        <div className="w-full flex flex justify-center pt-10 pb-10  ">
           <img
-            src="https://goldenhomesconstructions.com/wp-content/uploads/2024/10/newone.png"
+            src="https://res.cloudinary.com/sghome/image/upload/v1754635700/firstyle_uqm3no.jpg"
             alt="Facade"
-            height={300}
-            width={400}
+          className="h-20 lg:w-60 min-h-[150px]"
           />
         </div>
     </section>

@@ -33,9 +33,9 @@ const HeroSection = () => {
             <span>GOLDEN HOMES</span>
           </div> */}
           <img
-            src="https://goldenhomesconstructions.com/wp-content/uploads/2024/10/newone.png"
+            src="https://res.cloudinary.com/sghome/image/upload/v1754635700/firstyle_uqm3no.jpg"
             alt="Logo"
-            className="h-12 lg:w-30 mb-4"
+            className="h-12 lg:w-40 mb-4"
           />
 
           {/* Desktop Menu */}
