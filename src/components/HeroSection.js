@@ -33,9 +33,9 @@ const HeroSection = () => {
             <span>GOLDEN HOMES</span>
           </div> */}
           <img
-            src="https://res.cloudinary.com/sghome/image/upload/v1754635700/firstyle_uqm3no.jpg"
+            src="/images/logo-first.jpg"
             alt="Logo"
-            className="h-12 lg:w-40 mb-4"
+            className="h-[60px] w-auto mb-4"
           />
 
           {/* Desktop Menu */}
@@ -135,7 +135,7 @@ const HeroSection = () => {
       {/* Smooth Slide-In Mobile Menu */}
       <nav
         className={`fixed top-0 left-0 h-full w-3/4 max-w-xs bg-black/50 backdrop-blur-md
- pt-14 space-y-4 text-white z-40 transform transition-transform duration-300 ease-in-out
+  pt-20 space-y-4 text-white z-40 transform transition-transform duration-300 ease-in-out
           ${navOpen ? "translate-x-0" : "-translate-x-full"}
         `}
       >

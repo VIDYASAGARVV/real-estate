@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="grid sm:grid-cols-2  max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Logo + Description */}
         <div className="text-center">
-          <img src="https://res.cloudinary.com/sghome/image/upload/v1754635700/firstyle_uqm3no.jpg" alt="Logo" className="h-12 lg:w-40 mb-4" />
+          <img src="/images/logo-first.jpg" alt="Logo" className="h-14 lg:w-40 mb-4" />
           <p className="text-gray-300">
             We, at Golden Homes Constructions, specialise in turning dreams into
             reality. We offer a wide range of construction services tailored to
